@@ -11,15 +11,15 @@ function App() {
 
       window.location.replace(url);
     } else if (isIOS) {
-      // window.location.replace("instagram://");
+      window.location.replace("instagram://");
 
-      // setTimeout(() => {
-      //   window.location.replace(
-      //     "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo"
-      //   );
-      // }, 10000);
+      setTimeout(() => {
+        window.location.replace(
+          "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo"
+        );
+      }, 10000);
 
-      const urlIOS = "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo";
+      // const urlIOS = "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo";
 
       window.location.replace(urlIOS);
     } else {
