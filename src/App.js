@@ -15,7 +15,7 @@ function App() {
 
       setTimeout(() => {
         window.location.replace(
-          "https://apps.apple.com/us/app/instagram"
+          "https://apps.apple.com/app/instagram/id389801252?vt=lo"
         );
       }, 10000);
     } else {
