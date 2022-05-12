@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     if (isAndroid) {
       const url =
-        "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
+        "https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DF5261F93-D02A-4200-85FC-6548A4F73F91%26utm_content%3Dlo%26utm_medium%3Dbadge";
 
       window.location.replace(url);
     } else if (isIOS) {
