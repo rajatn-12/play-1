@@ -36,7 +36,7 @@ function App() {
           Open iOS app
         </a>
       ) : (
-        <a href="https://instagram.com">Open Web app</a>
+        <a href="https://www.bajajfinserv.in/">Open Web app</a>
       )}
     </div>
   );
