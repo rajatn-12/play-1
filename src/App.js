@@ -15,7 +15,7 @@ function App() {
 
       setTimeout(() => {
         window.location.replace(
-          "https://apps.apple.com/app/instagram/id389801252?vt=lo"
+          "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo"
         );
       }, 10000);
     } else {
