@@ -19,7 +19,7 @@ function App() {
         );
       }, 10000);
     } else {
-      window.location.replace("https://instagram.com");
+      window.location.replace("https://www.bajajfinserv.in/");
     }
   }, []);
   return (
